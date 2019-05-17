@@ -22,4 +22,4 @@ This is my Automated Cable Cross machine for my final project in ECE 387. I want
 ## How it Works
 The touch screen display works like a normal screen via hdmi, and connects to the Rasoberry Pi via usb and works like a mouse when touched. The GUI was programmed in python using the pygame library because it works the best with GPIO connections, although it can sacrifice speed. The servos are all controlled by the arduino, and the Raspberry Pi uses the pyfirmata library to communicate over serial to the arduino. This allows for the python script to control the arduino pins directly. The 55g servos are used to pivot the arms, rotating forward and backwards, acting like a platform for the motor controlling the arms. The 20 kg servos control the pvc arms, and their range of motion is 270 degrees, so the code had to output 2/3 of the intended pwm signal to servos to ensure an accurate arm location. 
 
-![Back View](backView2.jpg)
+![Back View](backView1.jpg)
